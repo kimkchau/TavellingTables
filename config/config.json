@@ -1,13 +1,8 @@
 {
   "development": {
     "username": "root",
-<<<<<<< HEAD
     "password": "password",
     "database": "exampledb",
-=======
-    "password":"root",
-    "database": "TravellingTable_db",
->>>>>>> afbe2c5a4e69733d265304c2573129b48c2daeaa
     "host": "localhost",
     "dialect": "mysql"
   },
