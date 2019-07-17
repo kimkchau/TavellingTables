@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="utf-8">
+
     <title>Travelling Tables</title>
+    <link rel="icon" href="../public/img/HatchfulExport-All (4)/favicon.png" type="image/x-icon" />
     <meta name="author" content="Team Travelling Tables">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -15,16 +17,29 @@
     <!--Import css-->
     <link type="text/css" rel="stylesheet" href="../public/styles/styles.css" />
     <!-- <link type="text/css" rel="stylesheet" href="./assets/css/navigation.css" /> -->
+    <!--Add AOS styles -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+
 </head>
 
 <body>
+    <!-- <div data-aos="fade-right"> -->
+    <!-- <h1>Hello</h1> -->
+    <!-- </div> -->
+
+    <div class="code code--wider code--left aos-init aos-animate" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+    </div>
+    
+    <!-- Navbar -->
     <div class="row">
         <section class="navigation">
             <div class="nav-container">
                 <div class="brand">
                     <a href="./index.html">
-                        <img src="../public/img/" style="height: 50px; float: left;" alt="Logo">Travelling
-                        Tables </a>
+                        <img src="../public/img/HatchfulExport-All (4)/logo_transparent2.png"
+                            style="height: 100px; float: left;" alt="Logo">Travelling Tables</a>
                 </div>
                 <nav>
                     <div class="nav-mobile">
@@ -45,16 +60,21 @@
         </section>
     </div>
     <br>
+    <!-- img header -->
     <div class="row wall center">
+        <!-- <div data-aos="fade-in" data-aos="fade-down" data-aos-duration="3000"  > -->
         <h2 class="main_title">Travelling Tables</h2>
         <p class="main_tagline">Connecting diners who want to share a home cooked meal. Travelling Table is a Home
-            Cooked Authentic Meal sharing Social Media App .</p>
+            Cooked Authentic Meal sharing Social Media App.</p>
+        <!-- </div> -->
     </div>
     <br>
     <br>
     <div class="container">
         <div class="row">
-            <h3 class="center">HOW IT WORKS</h3>
+            <div data-aos="fade-right">
+                <h3 class="center">HOW IT WORKS</h3>
+            </div>
             <hr>
         </div>
         <div class="row center">
@@ -104,14 +124,12 @@
                         <hr>
                     </div>
                     <div class="card_image">
-                        <img src="assets/images/japanese_meal.jpg" />
+                        <img src="" />
                     </div>
                     <div class="card_content">
                         <hr>
                         <p>A very special delicacy</p>
-                        <a>
-                            <button onclick="order()">Japanise food & culture</button>
-                        </a>
+
                         <br>
                         <br>
                     </div>
@@ -124,14 +142,12 @@
                         <hr>
                     </div>
                     <div class="card_image">
-                        <img src="./assets/images/mediterranean-meal.jpg" />
+                        <img src="../public/img/eiffel_tower.jpg" />
                     </div>
                     <div class="card_content">
                         <hr>
                         <p>A very special delicacy</p>
-                        <a>
-                            <button onclick="order()">Order</button>
-                        </a>
+
                         <br>
                         <br>
                     </div>
@@ -435,6 +451,10 @@
         }
     </script>
     <script type="text/javascript" src="./assets/js/scripts.js"> </script>
+    <!-- Initialize AOS-->
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
