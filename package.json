@@ -8,6 +8,7 @@
   },
   "license": "ISC",
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "dotenv": "^8.0.0",
     "express": "^4.17.0",
     "express-handlebars": "^3.1.0",
@@ -18,19 +19,5 @@
     "cross-env": "^5.2.0",
     "prettier": "^1.17.1",
     "tachyons": "^4.10.0"
-<<<<<<< HEAD
   }
-=======
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kimkchau/TravellingTables.git"
-  },
-  "keywords": [],
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/kimkchau/TravellingTables/issues"
-  },
-  "homepage": "https://github.com/kimkchau/TravellingTables#readme"
->>>>>>> afbe2c5a4e69733d265304c2573129b48c2daeaa
 }
