@@ -18,15 +18,5 @@
     "cross-env": "^5.2.0",
     "prettier": "^1.17.1",
     "tachyons": "^4.10.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kimkchau/TravellingTables.git"
-  },
-  "keywords": [],
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/kimkchau/TravellingTables/issues"
-  },
-  "homepage": "https://github.com/kimkchau/TravellingTables#readme"
+  }
 }
