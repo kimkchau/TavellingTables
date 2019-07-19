@@ -60,6 +60,14 @@ input, textarea, select, button {
     }
 */
 
+figure{
+word-spacing:30px;
+font-size: 25px;
+text-align: center;
+text-shadow: #CB3438;
+color:black;
+}
+
 .nav-list{
   float: right;
 }
