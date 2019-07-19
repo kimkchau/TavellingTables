@@ -6,9 +6,6 @@
   "scripts": {
     "start": "node server.js"
   },
-  "scripts": {
-    "start": "node server.js"
-  },
   "license": "ISC",
   "dependencies": {
     "aos": "^3.0.0-beta.6",
