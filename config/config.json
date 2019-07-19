@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "password",
+    "password": "root",
     "database": "TravellingTable_db",
     "host": "localhost",
     "dialect": "mysql"
