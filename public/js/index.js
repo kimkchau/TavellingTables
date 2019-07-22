@@ -27,5 +27,10 @@ $.ajax({
           </div>
         </div>`
       }
-      $("#eventTarget").html(htmlString)
+      if(htmlString === ""){
+        $("#eventTarget").text("No Events =( Sorry!")
+      }else{
+          $("#eventTarget").html(htmlString)
+
+      }
   })
