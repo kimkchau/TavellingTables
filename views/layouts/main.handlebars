@@ -1,28 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
+​
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Team Travelling Tables">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>Travelling Tables</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-  
+  <title>Travelling Tables</title>
+  <!-- <link rel="icon" type="image/png" href="assets/images/logo.png"> -->
   <!--Import Google Icon Font-->
-
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link type="text/css" rel="stylesheet" href="/styles/styles.css" />
-  <link type="text/css" rel="stylesheet" href="/styles/navigation.css">  
-
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-
+  <link type="text/css" rel="stylesheet" href="/styles/navigation.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  
 </head>
-
+​
 <body>
+<div class="container">
+  <div class="row">
+    <section class="navigation">
+      <div class="nav-container">
+        <div class="brand">
+          <a href="./">
+            <img src="/img/logo2.png" style="height: 50px; float: left;" alt="Logo">Travelling Tables </a>
+        </div>
+        <nav>
+          <div class="nav-mobile">
+            <a id="nav-toggle" href="#!">
+              <span></span>
+            </a>
+          </div>
+          <ul class="nav-list">
+            <li>
+            {{#if firstName}}
+              <a href="./user">{{firstName}} {{lastName}}</a></h4>
+            {{else}}
+              <li><a href="./login">Login</a></li>
+              <li><a href="./register">Sign up</a></li>
+            {{/if}}
+            </li>
+          </ul>
+        </nav>
+    </section>
+  </div>
+</div>
+<br>
   {{{body}}}
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+</div>
+<div class="footer">
+  <div class="row">
+    <p>© 2019 Copyright Travelling-Table by
+      <a target="_blank" href="/">Jacob Zamano, Kim Chau, Georgia Chrisinger, Iman Gure</a>
+    </p>
+  </div>
+</div>
   <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -32,5 +70,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
+​
 </html>

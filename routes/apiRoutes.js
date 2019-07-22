@@ -1,22 +1,37 @@
-var db = require("../models");
+var db = require("../models");  
+var Sequelize = require("sequelize");
+var passport = require("../config/passport");
+
+
 
 module.exports = function(app) {
   // Get all examples
-  app.get("/", function(req, res) {
-    res.render("index");
+  app.post("/login", passport.authenticate(
+    "local", {
+        successRedirect: "/",
+        failureRedirect: "*"
+    }
+));
+app.post("/create", function(req,res){
+  console.log(req.body)
+  db.Event.create(req.body).then(result=>{
+    console.log(result);
+  })
+})
+
+  app.post("/register", function(req,res){
+    db.User.create(req.body).then(result=>{
+      res.render("login")
+    });
   });
-
-  // // Create a new example
-  // app.post("/api/examples", function(req, res) {
-  //   db.Example.create(req.body).then(function(dbExample) {
-  //     res.json(dbExample);
-  //   });
-  // });
-
-  // // Delete an example by id
-  // app.delete("/api/examples/:id", function(req, res) {
-  //   db.Example.destroy({ where: { id: req.params.id } }).then(function(dbExample) {
-  //     res.json(dbExample);
-  //   });
-  // });
+  app.get("/api/accounts", function(req,res){
+    db.User.findAll({}).then(result=>{
+      res.json(result)
+    })
+  })
+  app.get("/api/events", function(req,res){
+    db.Event.findAll({}).then(result=>{
+      res.json(result)
+    })
+  })
 };
