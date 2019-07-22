@@ -5,7 +5,6 @@ $.ajax({
     url: "/api/events",
     method: "GET"
   }).then(function(res){
-
       for(var i = 0; i < res.length; i++){
           var date = res[i].date.substring(0,res[i].date.indexOf("T"))
           var guestCheck;
