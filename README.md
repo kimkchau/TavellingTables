@@ -17,7 +17,7 @@ This application is hosted on Heroku! Click the link below for a demo!
 
 . Georgia Chrisinger:    Front-end: (User-page)
 
-. Iman Gure:    Front-end:  UI
+. Iman Gure:    Front-end:  (UI & Readme)
 
 ## Concept
 
