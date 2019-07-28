@@ -29,6 +29,7 @@ As the Diner
 
  
  
+ 
  The Host
  I want to see profiles of interested parties to my event.
  
@@ -38,6 +39,9 @@ As the Diner
  
  I want to organize my events.
 
+
+
+
 MVP - Initial Release
  
 
@@ -46,6 +50,7 @@ MVP - Initial Release
  Allow diners to search for hosts in their local areas based criteria, acceptable group size, cuisine, .
 
  Allow users to establish a secure messaging system to start communication and set up the logistics of their meal.
+
 
 
 Technologies Used
