@@ -4,11 +4,11 @@
 
 . Jacob Zamano:   (Back-end & Project manager)
 
-. Kim Chau:  Front-end:   (Event-page,animation, Gitmaster)
+. Kim Chau:  Front-end:     (Event-page,animation, Gitmaster)
 
-. Georgia Chrisinger: F . ront-end: (User-page)
+. Georgia Chrisinger:    Front-end: (User-page)
 
-. Iman Gure:   Front-end: UI
+. Iman Gure:    Front-end:  UI
 
 ## Concept
 
