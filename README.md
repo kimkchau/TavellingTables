@@ -1,5 +1,14 @@
 # TravellingTables
 
+
+
+## Getting Started
+
+This application is hosted on Heroku! Click the link below for a demo!
+
+ https://travellingtables.herokuapp.com/
+
+
 ##  Team Members
 
 . Jacob Zamano:   (Back-end & Project manager)
