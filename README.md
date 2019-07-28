@@ -27,6 +27,8 @@ As the Diner
  I want to be able to open a secure line of communication between potential hosts.
  
 
+ 
+ 
  The Host
  I want to see profiles of interested parties to my event.
  
