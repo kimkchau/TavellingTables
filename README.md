@@ -2,13 +2,13 @@
 
 ##  Team Members
 
-. Jacob Zamano: (Back-end & Project manager)
+. Jacob Zamano:   (Back-end & Project manager)
 
-. Kim Chau:  Front-end: (Event-page,animation, Gitmaster)
+. Kim Chau:  Front-end:   (Event-page,animation, Gitmaster)
 
-. Georgia Chrisinger: Front-end: (User-page)
+. Georgia Chrisinger: F . ront-end: (User-page)
 
-. Iman Gure: Front-end: UI
+. Iman Gure:   Front-end: UI
 
 ## Concept
 
@@ -18,8 +18,9 @@ social media web application. Users will be able to be both a host and a diner. 
 bring people together to experience authentic food.
 
 
-As the Diner
+###  As the Diner
 
+ 
  I want to share a meal with locals.
 
  I want to able to search for meals based on what i am in the mood for.
@@ -32,7 +33,7 @@ As the Diner
  
  
  
- The Host
+ ### The Host
  
  
  I want to see profiles of interested parties to my event.
@@ -50,7 +51,7 @@ As the Diner
 
 
 
-MVP - Initial Release
+###  MVP - Initial Release
  
 
  
@@ -65,7 +66,7 @@ MVP - Initial Release
 
 
 
-Technologies Used
+###  Technologies Used
 
 
 Node.js
