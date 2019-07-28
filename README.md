@@ -1,6 +1,6 @@
 # TravellingTables
 
-#   Team Members
+# #  Team Members
 
 . Jacob Zamano: (Back-end & Project manager)
 
@@ -10,7 +10,7 @@
 
 . Iman Gure: Front-end: UI
 
-# Concept
+# # Concept
 
 
 Connecting diners who want to share an authentic home cooked meal. Travelling Table,  it's an international focused 
@@ -32,6 +32,7 @@ As the Diner
  
  The Host
  
+ 
  I want to see profiles of interested parties to my event.
  
  I want to create a profile that describes my dining experience to my potential diners.
@@ -44,9 +45,11 @@ As the Diner
 
 
 
+
 MVP - Initial Release
  
 
+ 
  Allow users to create diner and host profiles under one login.
  
  Allow diners to search for hosts in their local areas based criteria, acceptable group size, cuisine, .
@@ -57,6 +60,7 @@ MVP - Initial Release
 
 
 Technologies Used
+
 
 Node.js
 
