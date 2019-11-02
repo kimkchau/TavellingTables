@@ -78,29 +78,27 @@ bring people together to experience authentic food.
 ###  Technologies Used
 
 
-Node.js
+* Node.js
 
-Express.js
+* Express.js
 
-JavaScripe
+* JavaScrip
 
-Mysql
+* Mysql
 
-Sequelizer
+* Sequelizer
 
-ORM
+* ORM
 
-Handlebars
+* Handlebars
 
-Bootstrap
+* Bootstrap
 
-jQuery
+* jQuery
 
 
-New Framework Used
+**New Framework Used**
 
-Animation.css
+* Animation.css
 
-Navigation.css
-
-Material-icons
+* Material-icons
